@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "067ACB1A2740D1AD004CF5F3"
-               BuildableName = "LearnOpenGL"
+               BuildableName = "OpenGLPlayground"
                BlueprintName = "OpenGLPlayground"
                ReferencedContainer = "container:OpenGLPlayground.xcodeproj">
             </BuildableReference>
@@ -45,7 +45,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "067ACB1A2740D1AD004CF5F3"
-            BuildableName = "LearnOpenGL"
+            BuildableName = "OpenGLPlayground"
             BlueprintName = "OpenGLPlayground"
             ReferencedContainer = "container:OpenGLPlayground.xcodeproj">
          </BuildableReference>
@@ -62,7 +62,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "067ACB1A2740D1AD004CF5F3"
-            BuildableName = "LearnOpenGL"
+            BuildableName = "OpenGLPlayground"
             BlueprintName = "OpenGLPlayground"
             ReferencedContainer = "container:OpenGLPlayground.xcodeproj">
          </BuildableReference>
