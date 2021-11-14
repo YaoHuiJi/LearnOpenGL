@@ -12,3 +12,9 @@
 # Xcode Targets
 1. LearnOpenGL 用来学习OpenGL
 2. CppPlayground 用来学习C++
+
+# 学习进度
+| 课程 | 当前进度 |
+| :--- | ---: |
+| OpenGL | Introduction |
+| C++ | 0.1 |
