@@ -43,7 +43,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		067ACB1B2740D1AD004CF5F3 /* LearnOpenGL */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LearnOpenGL; sourceTree = BUILT_PRODUCTS_DIR; };
+		067ACB1B2740D1AD004CF5F3 /* OpenGLPlayground */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = OpenGLPlayground; sourceTree = BUILT_PRODUCTS_DIR; };
 		067ACB1E2740D1AD004CF5F3 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		067ACB262740D2BE004CF5F3 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
 		067ACB282740D2CA004CF5F3 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
@@ -72,7 +72,7 @@
 		067ACB122740D1AD004CF5F3 = {
 			isa = PBXGroup;
 			children = (
-				067ACB1D2740D1AD004CF5F3 /* LearnOpenGL */,
+				067ACB1D2740D1AD004CF5F3 /* OpenGLPlayground */,
 				067ACB1C2740D1AD004CF5F3 /* Products */,
 				067ACB252740D2BE004CF5F3 /* Frameworks */,
 			);
@@ -81,19 +81,19 @@
 		067ACB1C2740D1AD004CF5F3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				067ACB1B2740D1AD004CF5F3 /* LearnOpenGL */,
+				067ACB1B2740D1AD004CF5F3 /* OpenGLPlayground */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		067ACB1D2740D1AD004CF5F3 /* LearnOpenGL */ = {
+		067ACB1D2740D1AD004CF5F3 /* OpenGLPlayground */ = {
 			isa = PBXGroup;
 			children = (
 				067ACB412740EA3A004CF5F3 /* README.md */,
 				067ACB3E2740E0BE004CF5F3 /* include */,
 				067ACB402740E436004CF5F3 /* src */,
 			);
-			path = LearnOpenGL;
+			path = OpenGLPlayground;
 			sourceTree = "<group>";
 		};
 		067ACB252740D2BE004CF5F3 /* Frameworks */ = {
@@ -120,9 +120,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		067ACB1A2740D1AD004CF5F3 /* LearnOpenGL */ = {
+		067ACB1A2740D1AD004CF5F3 /* OpenGLPlayground */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 067ACB222740D1AD004CF5F3 /* Build configuration list for PBXNativeTarget "LearnOpenGL" */;
+			buildConfigurationList = 067ACB222740D1AD004CF5F3 /* Build configuration list for PBXNativeTarget "OpenGLPlayground" */;
 			buildPhases = (
 				067ACB172740D1AD004CF5F3 /* Sources */,
 				067ACB182740D1AD004CF5F3 /* Frameworks */,
@@ -133,9 +133,9 @@
 			);
 			dependencies = (
 			);
-			name = LearnOpenGL;
+			name = OpenGLPlayground;
 			productName = LearnOpenGL;
-			productReference = 067ACB1B2740D1AD004CF5F3 /* LearnOpenGL */;
+			productReference = 067ACB1B2740D1AD004CF5F3 /* OpenGLPlayground */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -152,7 +152,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 067ACB162740D1AD004CF5F3 /* Build configuration list for PBXProject "LearnOpenGL" */;
+			buildConfigurationList = 067ACB162740D1AD004CF5F3 /* Build configuration list for PBXProject "OpenGLPlayground" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -165,7 +165,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				067ACB1A2740D1AD004CF5F3 /* LearnOpenGL */,
+				067ACB1A2740D1AD004CF5F3 /* OpenGLPlayground */,
 			);
 		};
 /* End PBXProject section */
@@ -238,12 +238,12 @@
 				HEADER_SEARCH_PATHS = (
 					/usr/local/Cellar/glfw/3.3.5/include,
 					/usr/local/Cellar/glew/2.2.0_1/include,
-					/Users/jackyao/Workspace/LearnOpenGL/LearnOpenGL/include,
+					./OpenGLPlayground/include,
 				);
 				"HEADER_SEARCH_PATHS[arch=*]" = (
 					/usr/local/Cellar/glfw/3.3.5/include,
 					/usr/local/Cellar/glew/2.2.0_1/include,
-					/Users/jackyao/Workspace/LearnOpenGL/LearnOpenGL/include,
+					./OpenGLPlayground/include,
 				);
 				LIBRARY_SEARCH_PATHS = (
 					/usr/local/Cellar/glfw/3.3.5/lib,
@@ -310,12 +310,12 @@
 				HEADER_SEARCH_PATHS = (
 					/usr/local/Cellar/glfw/3.3.5/include,
 					/usr/local/Cellar/glew/2.2.0_1/include,
-					/Users/jackyao/Workspace/LearnOpenGL/LearnOpenGL/include,
+					./OpenGLPlayground/include,
 				);
 				"HEADER_SEARCH_PATHS[arch=*]" = (
 					/usr/local/Cellar/glfw/3.3.5/include,
 					/usr/local/Cellar/glew/2.2.0_1/include,
-					/Users/jackyao/Workspace/LearnOpenGL/LearnOpenGL/include,
+					./OpenGLPlayground/include,
 				);
 				LIBRARY_SEARCH_PATHS = (
 					/usr/local/Cellar/glfw/3.3.5/lib,
@@ -353,7 +353,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		067ACB162740D1AD004CF5F3 /* Build configuration list for PBXProject "LearnOpenGL" */ = {
+		067ACB162740D1AD004CF5F3 /* Build configuration list for PBXProject "OpenGLPlayground" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				067ACB202740D1AD004CF5F3 /* Debug */,
@@ -362,7 +362,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		067ACB222740D1AD004CF5F3 /* Build configuration list for PBXNativeTarget "LearnOpenGL" */ = {
+		067ACB222740D1AD004CF5F3 /* Build configuration list for PBXNativeTarget "OpenGLPlayground" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				067ACB232740D1AD004CF5F3 /* Debug */,
