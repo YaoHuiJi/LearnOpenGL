@@ -15,13 +15,6 @@
 		067ACB3B2740DD56004CF5F3 /* libglfw.3.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 067ACB2A2740DA42004CF5F3 /* libglfw.3.3.dylib */; };
 		067ACB3C2740DD56004CF5F3 /* libglfw.3.3.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 067ACB2A2740DA42004CF5F3 /* libglfw.3.3.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		067ACB3F2740E0BE004CF5F3 /* glad.c in Sources */ = {isa = PBXBuildFile; fileRef = 067ACB3D2740E0BE004CF5F3 /* glad.c */; };
-		067ACB472740F580004CF5F3 /* glad.c in Sources */ = {isa = PBXBuildFile; fileRef = 067ACB3D2740E0BE004CF5F3 /* glad.c */; };
-		067ACB492740F580004CF5F3 /* libglfw.3.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 067ACB2A2740DA42004CF5F3 /* libglfw.3.3.dylib */; };
-		067ACB4A2740F580004CF5F3 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 067ACB262740D2BE004CF5F3 /* OpenGL.framework */; };
-		067ACB4B2740F580004CF5F3 /* libGLEW.2.2.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 067ACB2C2740DA55004CF5F3 /* libGLEW.2.2.0.dylib */; };
-		067ACB4E2740F580004CF5F3 /* libglfw.3.3.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 067ACB2A2740DA42004CF5F3 /* libglfw.3.3.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		067ACB4F2740F580004CF5F3 /* libGLEW.2.2.0.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 067ACB2C2740DA55004CF5F3 /* libGLEW.2.2.0.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		067ACB502740F580004CF5F3 /* OpenGL.framework in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 067ACB262740D2BE004CF5F3 /* OpenGL.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		067ACB552740F5A2004CF5F3 /* cppMain.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 067ACB422740F4FE004CF5F3 /* cppMain.cpp */; };
 /* End PBXBuildFile section */
 
@@ -57,19 +50,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
-		067ACB4D2740F580004CF5F3 /* Embed Libraries */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				067ACB4E2740F580004CF5F3 /* libglfw.3.3.dylib in Embed Libraries */,
-				067ACB4F2740F580004CF5F3 /* libGLEW.2.2.0.dylib in Embed Libraries */,
-				067ACB502740F580004CF5F3 /* OpenGL.framework in Embed Libraries */,
-			);
-			name = "Embed Libraries";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -102,9 +82,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				067ACB492740F580004CF5F3 /* libglfw.3.3.dylib in Frameworks */,
-				067ACB4A2740F580004CF5F3 /* OpenGL.framework in Frameworks */,
-				067ACB4B2740F580004CF5F3 /* libGLEW.2.2.0.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -189,7 +166,6 @@
 				067ACB452740F580004CF5F3 /* Sources */,
 				067ACB482740F580004CF5F3 /* Frameworks */,
 				067ACB4C2740F580004CF5F3 /* CopyFiles */,
-				067ACB4D2740F580004CF5F3 /* Embed Libraries */,
 			);
 			buildRules = (
 			);
@@ -248,7 +224,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				067ACB552740F5A2004CF5F3 /* cppMain.cpp in Sources */,
-				067ACB472740F580004CF5F3 /* glad.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,7 +247,7 @@
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = NO;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
@@ -330,6 +305,7 @@
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
+				VALIDATE_WORKSPACE_SKIPPED_SDK_FRAMEWORKS = OpenGL;
 			};
 			name = Debug;
 		};
@@ -350,7 +326,7 @@
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = NO;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
@@ -397,6 +373,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;
+				VALIDATE_WORKSPACE_SKIPPED_SDK_FRAMEWORKS = OpenGL;
 			};
 			name = Release;
 		};
