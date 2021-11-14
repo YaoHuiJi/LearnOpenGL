@@ -15,6 +15,14 @@
 		067ACB3B2740DD56004CF5F3 /* libglfw.3.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 067ACB2A2740DA42004CF5F3 /* libglfw.3.3.dylib */; };
 		067ACB3C2740DD56004CF5F3 /* libglfw.3.3.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 067ACB2A2740DA42004CF5F3 /* libglfw.3.3.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		067ACB3F2740E0BE004CF5F3 /* glad.c in Sources */ = {isa = PBXBuildFile; fileRef = 067ACB3D2740E0BE004CF5F3 /* glad.c */; };
+		067ACB472740F580004CF5F3 /* glad.c in Sources */ = {isa = PBXBuildFile; fileRef = 067ACB3D2740E0BE004CF5F3 /* glad.c */; };
+		067ACB492740F580004CF5F3 /* libglfw.3.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 067ACB2A2740DA42004CF5F3 /* libglfw.3.3.dylib */; };
+		067ACB4A2740F580004CF5F3 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 067ACB262740D2BE004CF5F3 /* OpenGL.framework */; };
+		067ACB4B2740F580004CF5F3 /* libGLEW.2.2.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 067ACB2C2740DA55004CF5F3 /* libGLEW.2.2.0.dylib */; };
+		067ACB4E2740F580004CF5F3 /* libglfw.3.3.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 067ACB2A2740DA42004CF5F3 /* libglfw.3.3.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		067ACB4F2740F580004CF5F3 /* libGLEW.2.2.0.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 067ACB2C2740DA55004CF5F3 /* libGLEW.2.2.0.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		067ACB502740F580004CF5F3 /* OpenGL.framework in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 067ACB262740D2BE004CF5F3 /* OpenGL.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		067ACB552740F5A2004CF5F3 /* cppMain.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 067ACB422740F4FE004CF5F3 /* cppMain.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -40,6 +48,28 @@
 			name = "Embed Libraries";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		067ACB4C2740F580004CF5F3 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		067ACB4D2740F580004CF5F3 /* Embed Libraries */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				067ACB4E2740F580004CF5F3 /* libglfw.3.3.dylib in Embed Libraries */,
+				067ACB4F2740F580004CF5F3 /* libGLEW.2.2.0.dylib in Embed Libraries */,
+				067ACB502740F580004CF5F3 /* OpenGL.framework in Embed Libraries */,
+			);
+			name = "Embed Libraries";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -53,6 +83,8 @@
 		067ACB3D2740E0BE004CF5F3 /* glad.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = glad.c; sourceTree = "<group>"; };
 		067ACB3E2740E0BE004CF5F3 /* include */ = {isa = PBXFileReference; lastKnownFileType = folder; path = include; sourceTree = "<group>"; };
 		067ACB412740EA3A004CF5F3 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
+		067ACB422740F4FE004CF5F3 /* cppMain.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = cppMain.cpp; sourceTree = "<group>"; };
+		067ACB542740F580004CF5F3 /* CppPlayground */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CppPlayground; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +95,16 @@
 				067ACB3B2740DD56004CF5F3 /* libglfw.3.3.dylib in Frameworks */,
 				067ACB332740DBDE004CF5F3 /* OpenGL.framework in Frameworks */,
 				067ACB392740DD3C004CF5F3 /* libGLEW.2.2.0.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		067ACB482740F580004CF5F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				067ACB492740F580004CF5F3 /* libglfw.3.3.dylib in Frameworks */,
+				067ACB4A2740F580004CF5F3 /* OpenGL.framework in Frameworks */,
+				067ACB4B2740F580004CF5F3 /* libGLEW.2.2.0.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,6 +124,7 @@
 			isa = PBXGroup;
 			children = (
 				067ACB1B2740D1AD004CF5F3 /* OpenGLPlayground */,
+				067ACB542740F580004CF5F3 /* CppPlayground */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -113,6 +156,7 @@
 			children = (
 				067ACB3D2740E0BE004CF5F3 /* glad.c */,
 				067ACB1E2740D1AD004CF5F3 /* main.cpp */,
+				067ACB422740F4FE004CF5F3 /* cppMain.cpp */,
 			);
 			path = src;
 			sourceTree = "<group>";
@@ -136,6 +180,24 @@
 			name = OpenGLPlayground;
 			productName = LearnOpenGL;
 			productReference = 067ACB1B2740D1AD004CF5F3 /* OpenGLPlayground */;
+			productType = "com.apple.product-type.tool";
+		};
+		067ACB442740F580004CF5F3 /* CppPlayground */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 067ACB512740F580004CF5F3 /* Build configuration list for PBXNativeTarget "CppPlayground" */;
+			buildPhases = (
+				067ACB452740F580004CF5F3 /* Sources */,
+				067ACB482740F580004CF5F3 /* Frameworks */,
+				067ACB4C2740F580004CF5F3 /* CopyFiles */,
+				067ACB4D2740F580004CF5F3 /* Embed Libraries */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CppPlayground;
+			productName = LearnOpenGL;
+			productReference = 067ACB542740F580004CF5F3 /* CppPlayground */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -166,6 +228,7 @@
 			projectRoot = "";
 			targets = (
 				067ACB1A2740D1AD004CF5F3 /* OpenGLPlayground */,
+				067ACB442740F580004CF5F3 /* CppPlayground */,
 			);
 		};
 /* End PBXProject section */
@@ -177,6 +240,15 @@
 			files = (
 				067ACB1F2740D1AD004CF5F3 /* main.cpp in Sources */,
 				067ACB3F2740E0BE004CF5F3 /* glad.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		067ACB452740F580004CF5F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				067ACB552740F5A2004CF5F3 /* cppMain.cpp in Sources */,
+				067ACB472740F580004CF5F3 /* glad.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -350,6 +422,28 @@
 			};
 			name = Release;
 		};
+		067ACB522740F580004CF5F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PTNYVXTS9P;
+				ENABLE_HARDENED_RUNTIME = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		067ACB532740F580004CF5F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PTNYVXTS9P;
+				ENABLE_HARDENED_RUNTIME = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -367,6 +461,15 @@
 			buildConfigurations = (
 				067ACB232740D1AD004CF5F3 /* Debug */,
 				067ACB242740D1AD004CF5F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		067ACB512740F580004CF5F3 /* Build configuration list for PBXNativeTarget "CppPlayground" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				067ACB522740F580004CF5F3 /* Debug */,
+				067ACB532740F580004CF5F3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
