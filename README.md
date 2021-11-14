@@ -16,5 +16,5 @@
 # 学习进度
 | 课程 | 当前进度 |
 | :--- | ---: |
-| OpenGL | [Introduction]https://learnopengl.com/Introduction) |
+| OpenGL | [Introduction](https://learnopengl.com/Introduction) |
 | C++ | [0.1](https://www.learncpp.com/cpp-tutorial/introduction-to-these-tutorials/) |
