@@ -52,6 +52,7 @@
 		067ACB2E2740DABD004CF5F3 /* libGLEW.2.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libGLEW.2.2.dylib; path = ../../../../usr/local/Cellar/glew/2.2.0_1/lib/libGLEW.2.2.dylib; sourceTree = "<group>"; };
 		067ACB3D2740E0BE004CF5F3 /* glad.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = glad.c; sourceTree = "<group>"; };
 		067ACB3E2740E0BE004CF5F3 /* include */ = {isa = PBXFileReference; lastKnownFileType = folder; path = include; sourceTree = "<group>"; };
+		067ACB412740EA3A004CF5F3 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +89,7 @@
 		067ACB1D2740D1AD004CF5F3 /* LearnOpenGL */ = {
 			isa = PBXGroup;
 			children = (
+				067ACB412740EA3A004CF5F3 /* README.md */,
 				067ACB3E2740E0BE004CF5F3 /* include */,
 				067ACB402740E436004CF5F3 /* src */,
 			);
