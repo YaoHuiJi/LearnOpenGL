@@ -90,9 +90,8 @@
 			isa = PBXGroup;
 			children = (
 				067ACB3E2740E0BE004CF5F3 /* include */,
-				067ACB3D2740E0BE004CF5F3 /* glad.c */,
 				067ACB382740DCE7004CF5F3 /* LearnOpenGL.entitlements */,
-				067ACB1E2740D1AD004CF5F3 /* main.cpp */,
+				067ACB402740E436004CF5F3 /* src */,
 			);
 			path = LearnOpenGL;
 			sourceTree = "<group>";
@@ -107,6 +106,15 @@
 				067ACB262740D2BE004CF5F3 /* OpenGL.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		067ACB402740E436004CF5F3 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				067ACB3D2740E0BE004CF5F3 /* glad.c */,
+				067ACB1E2740D1AD004CF5F3 /* main.cpp */,
+			);
+			path = src;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
