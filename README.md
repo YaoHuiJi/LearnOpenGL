@@ -9,6 +9,6 @@
 3. 添加glfw，glew的dylib到xcode target的Link Bindary With Libraries
 
 
-# Targets
+# Xcode Targets
 1. LearnOpenGL 用来学习OpenGL
 2. CppPlayground 用来学习C++
