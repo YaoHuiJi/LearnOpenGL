@@ -17,4 +17,4 @@
 | 课程 | 当前进度 |
 | :--- | ---: |
 | OpenGL | [Introduction](https://learnopengl.com/Introduction) |
-| C++ | [0.1](https://www.learncpp.com/cpp-tutorial/introduction-to-these-tutorials/) |
+| C++ | [1.1](https://www.learncpp.com/cpp-tutorial/statements-and-the-structure-of-a-program/) |
