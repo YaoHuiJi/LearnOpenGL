@@ -1,5 +1,5 @@
 # OpenGL Playground
-跟着教程[learnopengl](https://learnopengl.com/Introduction) 学习OpenGL
+跟着教程[learn opengl](https://learnopengl.com/Introduction) 学习OpenGL
 
 # 环境搭建
 1. 用brew安装相关工具：brew install cmake assimp glm glfw3 glew
