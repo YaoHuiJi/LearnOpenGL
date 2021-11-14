@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "067ACB442740F580004CF5F3"
-               BuildableName = "OpenGLPlayground copy"
+               BuildableName = "CppPlayground"
                BlueprintName = "CppPlayground"
                ReferencedContainer = "container:OpenGLPlayground.xcodeproj">
             </BuildableReference>
@@ -45,7 +45,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "067ACB442740F580004CF5F3"
-            BuildableName = "OpenGLPlayground copy"
+            BuildableName = "CppPlayground"
             BlueprintName = "CppPlayground"
             ReferencedContainer = "container:OpenGLPlayground.xcodeproj">
          </BuildableReference>
@@ -62,7 +62,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "067ACB442740F580004CF5F3"
-            BuildableName = "OpenGLPlayground copy"
+            BuildableName = "CppPlayground"
             BlueprintName = "CppPlayground"
             ReferencedContainer = "container:OpenGLPlayground.xcodeproj">
          </BuildableReference>
