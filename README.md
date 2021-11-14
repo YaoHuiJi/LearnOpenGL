@@ -1,6 +1,6 @@
-# OpenGL Playground
-跟着教程[Learn OpenGL](https://learnopengl.com/Introduction) 学习OpenGL
-跟着教程[Learn CPP](https://www.learncpp.com/) 学习C++
+# OpenGL/C++ Playground
+- 跟着教程[Learn OpenGL](https://learnopengl.com/Introduction) 学习OpenGL
+- 跟着教程[Learn CPP](https://www.learncpp.com/) 学习C++
 
 
 # 环境搭建
