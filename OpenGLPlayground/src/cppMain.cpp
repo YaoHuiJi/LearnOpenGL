@@ -1,28 +1,10 @@
-#include <array>
-#include <iostream>
-#include <string_view>
-#include <tuple>
-#include <type_traits>
-
-namespace a::b::c
-{
-    inline constexpr std::string_view str{ "hello" };
-}
-
-template <class... T>
-std::tuple<std::size_t, std::common_type_t<T...>> sum(T... args)
-{
-    return { sizeof...(T), (args + ...) };
-}
+#include <iostream>  // for std::cout and std::cin
 
 int main()
 {
-    auto [iNumbers, iSum]{ sum(1, 2, 3) };
-    std::cout << a::b::c::str << ' ' << iNumbers << ' ' << iSum << '\n';
-
-    std::array arr{ 1, 2, 3 };
-
-    std::cout << std::size(arr) << '\n';
-
+    std::cout << "Enter a number: "; // ask user for a number
+    int x{}; // define variable x to hold user input
+    std::cin >> x; // get number from keyboard and store it in variable x
+    std::cout << "You entered " << x << '\n';
     return 0;
 }

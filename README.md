@@ -18,4 +18,4 @@
 | 课程 | 当前进度 |
 | :--- | ---: |
 | OpenGL | [Introduction](https://learnopengl.com/Introduction) |
-| C++ | [1.1](https://www.learncpp.com/cpp-tutorial/statements-and-the-structure-of-a-program/) |
+| C++ | [1.6](https://www.learncpp.com/cpp-tutorial/uninitialized-variables-and-undefined-behavior/) |
