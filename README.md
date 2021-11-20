@@ -18,4 +18,4 @@
 | 课程 | 当前进度 |
 | :--- | ---: |
 | OpenGL | [Introduction](https://learnopengl.com/Introduction) |
-| C++ | [2.3](https://www.learncpp.com/cpp-tutorial/introduction-to-function-parameters-and-arguments/) |
+| C++ | [3.1](https://www.learncpp.com/cpp-tutorial/syntax-and-semantic-errors/) |
