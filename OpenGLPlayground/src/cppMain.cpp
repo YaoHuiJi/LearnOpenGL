@@ -1,10 +1,26 @@
+#include "helper.h"
+
 #include <iostream>  // for std::cout and std::cin
+#include <cstdlib>
+
+#include <plog/Log.h>
+#include <plog/Initializers/RollingFileInitializer.h>
+#include <plog/Appenders/ConsoleAppender.h>
 
 int main()
 {
-    std::cout << "Enter a number: "; // ask user for a number
-    int x{}; // define variable x to hold user input
-    std::cin >> x; // get number from keyboard and store it in variable x
-    std::cout << "You entered " << x << '\n';
-    return 0;
+    static plog::ConsoleAppender<plog::TxtFormatter> consoleAppender;
+    plog::init(plog::debug, "HelloCpp.log").addAppender(&consoleAppender);
+    
+    int x { readInt() };
+    
+    while(x < 0)
+    {
+        LOGE << x << " is smaller than 0\n";
+        x = readInt();
+    }
+    
+    LOGD <<  x << std::endl;
+    
+    return EXIT_SUCCESS;
 }
