@@ -18,4 +18,4 @@
 | 课程 | 当前进度 |
 | :--- | ---: |
 | OpenGL | [Introduction](https://learnopengl.com/Introduction) |
-| C++ | [4.1](https://www.learncpp.com/cpp-tutorial/introduction-to-fundamental-data-types/) |
+| C++ | [5.1](https://www.learncpp.com/cpp-tutorial/operator-precedence-and-associativity/) |
