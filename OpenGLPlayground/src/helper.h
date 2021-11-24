@@ -10,29 +10,35 @@
 #include <iostream>
 #include <string>
 
-/**
-  read an integer from console
- */
-int readInt(std::string label);
+namespace helper
+{
+    extern std::string author;
+    
+    /**
+      read an integer from console
+     */
+    int readInt(std::string label);
 
-/**
-  read a double value from console
- */
-double readDouble(std::string label);
+    /**
+      read a double value from console
+     */
+    double readDouble(std::string label);
 
-/**
-  read a char from console
- */
-char readChar(std::string label);
+    /**
+      read a char from console
+     */
+    char readChar(std::string label);
 
-/**
-  read a string from console
- */
-std::string readString(std::string label);
+    /**
+      read a string from console
+     */
+    std::string readString(std::string label);
 
-/**
- int plog
- */
-void initPlog();
+    /**
+     int plog
+     */
+    void initPlog();
+
+}
 
 #endif /* helper_h */

@@ -7,64 +7,69 @@
 #include <plog/Initializers/RollingFileInitializer.h>
 #include <plog/Appenders/ConsoleAppender.h>
 
-void initPlog()
+namespace helper
 {
-    static plog::ConsoleAppender<plog::TxtFormatter> consoleAppender;
-    plog::init(plog::debug, "HelloCpp.log").addAppender(&consoleAppender);
-}
+    std::string author = "Yao Hui Ji";
 
-char readChar(std::string label = "")
-{
-    if(label == "")
+    void initPlog()
     {
-        label = "Enter a char";
+        static plog::ConsoleAppender<plog::TxtFormatter> consoleAppender;
+        plog::init(plog::debug, "HelloCpp.log").addAppender(&consoleAppender);
     }
-    
-    char x{};
-    
-    std::cout << label << ": ";
-    std::cin >> x;
-    
-    return x;
-}
 
-int readInt(std::string label = "")
-{
-    if(label == "")
+    char readChar(std::string label = "")
     {
-        label = "Enter an integer";
+        if(label == "")
+        {
+            label = "Enter a char";
+        }
+        
+        char x{};
+        
+        std::cout << label << ": ";
+        std::cin >> x;
+        
+        return x;
     }
-    
-    int x{0};
-    
-    std::cout << label << ": ";
-    std::cin >> x;
-    
-    return x;
-}
 
-double readDouble(std::string label = "")
-{
-    if(label == "")
+    int readInt(std::string label = "")
     {
-        label = "Enter a double";
+        if(label == "")
+        {
+            label = "Enter an integer";
+        }
+        
+        int x{0};
+        
+        std::cout << label << ": ";
+        std::cin >> x;
+        
+        return x;
     }
-    
-    double x{};
-    
-    std::cout << label << ": ";
-    std::cin >> x;
-    
-    return x;
-}
 
-std::string readString(std::string label)
-{
-    std::string s;
-    
-    std::cout << label << ": ";
-    
-    std::getline(std::cin >> std::ws , s);
-    
-    return s;
+    double readDouble(std::string label = "")
+    {
+        if(label == "")
+        {
+            label = "Enter a double";
+        }
+        
+        double x{};
+        
+        std::cout << label << ": ";
+        std::cin >> x;
+        
+        return x;
+    }
+
+    std::string readString(std::string label)
+    {
+        std::string s;
+        
+        std::cout << label << ": ";
+        
+        std::getline(std::cin >> std::ws , s);
+        
+        return s;
+    }
 }

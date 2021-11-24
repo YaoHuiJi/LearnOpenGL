@@ -18,4 +18,4 @@
 | 课程 | 当前进度 |
 | :--- | ---: |
 | OpenGL | [Introduction](https://learnopengl.com/Introduction) |
-| C++ | [5.1](https://www.learncpp.com/cpp-tutorial/operator-precedence-and-associativity/) |
+| C++ | [6.8](https://www.learncpp.com/cpp-tutorial/why-non-const-global-variables-are-evil/) |

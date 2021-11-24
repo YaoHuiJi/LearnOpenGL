@@ -8,11 +8,13 @@
 
 #include <plog/Log.h>
 
+using namespace helper;
+
 int main()
 {
     initPlog();
     
-    LOGD << readString("Your name");
+    LOGD << author;
 
     return EXIT_SUCCESS;
 }
