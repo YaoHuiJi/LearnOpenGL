@@ -5,16 +5,26 @@
 #include <cstdint>
 #include <string>
 #include <bitset>
-
 #include <plog/Log.h>
-
-using namespace helper;
+#include <cassert>
+#include <cmath>
 
 int main()
 {
-    initPlog();
+    helper::initPlog();
     
-    LOGD << author;
-
+    int a{};
+    
+    while(true)
+    {
+        std::cout << "Enter an integer: ";
+        std::cin >> a;
+        
+        assert( std::cin.fail() == false && "What the fuck");
+        
+        std::cout << "You entered: " << a << std::endl;
+      
+    }
+    
     return EXIT_SUCCESS;
 }

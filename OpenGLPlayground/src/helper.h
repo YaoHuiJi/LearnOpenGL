@@ -12,7 +12,9 @@
 
 namespace helper
 {
-    extern std::string author;
+    extern const char author[];
+
+    void ignoreLine();
     
     /**
       read an integer from console

@@ -9,12 +9,17 @@
 
 namespace helper
 {
-    std::string author = "Yao Hui Ji";
+    const char author[] = "Yao Hui Ji";
 
     void initPlog()
     {
         static plog::ConsoleAppender<plog::TxtFormatter> consoleAppender;
         plog::init(plog::debug, "HelloCpp.log").addAppender(&consoleAppender);
+    }
+
+    void ignoreLine()
+    {
+        std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
     }
 
     char readChar(std::string label = "")
@@ -28,7 +33,7 @@ namespace helper
         
         std::cout << label << ": ";
         std::cin >> x;
-        
+        ignoreLine();
         return x;
     }
 
@@ -43,7 +48,7 @@ namespace helper
         
         std::cout << label << ": ";
         std::cin >> x;
-        
+        ignoreLine();
         return x;
     }
 
@@ -58,7 +63,7 @@ namespace helper
         
         std::cout << label << ": ";
         std::cin >> x;
-        
+        ignoreLine();
         return x;
     }
 
