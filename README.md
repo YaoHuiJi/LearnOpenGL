@@ -18,4 +18,4 @@
 | 课程 | 当前进度 |
 | :--- | ---: |
 | OpenGL | [Introduction](https://learnopengl.com/Introduction) |
-| C++ | [8.2](https://www.learncpp.com/cpp-tutorial/floating-point-and-integral-promotion/) |
+| C++ | [8.6](https://www.learncpp.com/cpp-tutorial/typedefs-and-type-aliases/) |

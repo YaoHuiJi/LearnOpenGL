@@ -1,6 +1,7 @@
 #include "helper.h"
 
 #include <iostream>  // for std::cout and std::cin
+#include <iomanip>
 #include <cstdlib>
 #include <cstdint>
 #include <string>
@@ -9,22 +10,17 @@
 #include <cassert>
 #include <cmath>
 
+#include <typeinfo>
+
 int main()
 {
     helper::initPlog();
+
+    int i { 100 };
     
-    int a{};
+    i = i/2.5;
     
-    while(true)
-    {
-        std::cout << "Enter an integer: ";
-        std::cin >> a;
-        
-        assert( std::cin.fail() == false && "What the fuck");
-        
-        std::cout << "You entered: " << a << std::endl;
-      
-    }
+    LOGD << i ;
     
     return EXIT_SUCCESS;
 }
