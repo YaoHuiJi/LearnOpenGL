@@ -18,4 +18,4 @@
 | 课程 | 当前进度 |
 | :--- | ---: |
 | OpenGL | [Introduction](https://learnopengl.com/Introduction) |
-| C++ | [8.6](https://www.learncpp.com/cpp-tutorial/typedefs-and-type-aliases/) |
+| C++ | [8.8](https://www.learncpp.com/cpp-tutorial/type-deduction-for-functions/) |

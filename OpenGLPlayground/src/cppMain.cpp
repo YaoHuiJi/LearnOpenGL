@@ -5,7 +5,6 @@
 #include <cstdlib>
 #include <cstdint>
 #include <string>
-#include <bitset>
 #include <plog/Log.h>
 #include <cassert>
 #include <cmath>
@@ -15,12 +14,10 @@
 int main()
 {
     helper::initPlog();
-
-    int i { 100 };
     
-    i = i/2.5;
+    auto y { 5 };
     
-    LOGD << i ;
+    LOGD << y;
     
     return EXIT_SUCCESS;
 }
