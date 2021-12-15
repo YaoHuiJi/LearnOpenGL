@@ -1,23 +1,15 @@
+#define __STDC_WANT_LIB_EXT1__ 1
+
 #include "helper.h"
-
-#include <iostream>  // for std::cout and std::cin
-#include <iomanip>
-#include <cstdlib>
-#include <cstdint>
-#include <string>
+#include "random.h"
 #include <plog/Log.h>
-#include <cassert>
-#include <cmath>
-
+#include <cstdlib>
+#include <cstring>
 #include <typeinfo>
 
 int main()
 {
     helper::initPlog();
-    
-    auto y { 5 };
-    
-    LOGD << y;
     
     return EXIT_SUCCESS;
 }

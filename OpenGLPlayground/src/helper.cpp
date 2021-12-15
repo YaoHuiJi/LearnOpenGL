@@ -22,51 +22,6 @@ namespace helper
         std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
     }
 
-    char readChar(std::string label = "")
-    {
-        if(label == "")
-        {
-            label = "Enter a char";
-        }
-        
-        char x{};
-        
-        std::cout << label << ": ";
-        std::cin >> x;
-        ignoreLine();
-        return x;
-    }
-
-    int readInt(std::string label = "")
-    {
-        if(label == "")
-        {
-            label = "Enter an integer";
-        }
-        
-        int x{0};
-        
-        std::cout << label << ": ";
-        std::cin >> x;
-        ignoreLine();
-        return x;
-    }
-
-    double readDouble(std::string label = "")
-    {
-        if(label == "")
-        {
-            label = "Enter a double";
-        }
-        
-        double x{};
-        
-        std::cout << label << ": ";
-        std::cin >> x;
-        ignoreLine();
-        return x;
-    }
-
     std::string readString(std::string label)
     {
         std::string s;

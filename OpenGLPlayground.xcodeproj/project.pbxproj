@@ -66,6 +66,7 @@
 		067ACB412740EA3A004CF5F3 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 		067ACB422740F4FE004CF5F3 /* cppMain.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = cppMain.cpp; sourceTree = "<group>"; };
 		067ACB542740F580004CF5F3 /* CppPlayground */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CppPlayground; sourceTree = BUILT_PRODUCTS_DIR; };
+		06B02D3727678C1400992F79 /* random.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = random.h; sourceTree = "<group>"; };
 		06CC1F2A2748D60600A168E4 /* helper.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = helper.cpp; sourceTree = "<group>"; };
 		06CC1F2C2749367E00A168E4 /* helper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = helper.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -134,6 +135,7 @@
 		067ACB402740E436004CF5F3 /* src */ = {
 			isa = PBXGroup;
 			children = (
+				06B02D3727678C1400992F79 /* random.h */,
 				067ACB3D2740E0BE004CF5F3 /* glad.c */,
 				067ACB1E2740D1AD004CF5F3 /* main.cpp */,
 				067ACB422740F4FE004CF5F3 /* cppMain.cpp */,

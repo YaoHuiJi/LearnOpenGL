@@ -18,4 +18,4 @@
 | 课程 | 当前进度 |
 | :--- | ---: |
 | OpenGL | [Introduction](https://learnopengl.com/Introduction) |
-| C++ | [8.8](https://www.learncpp.com/cpp-tutorial/type-deduction-for-functions/) |
+| C++ | [10.12](https://www.learncpp.com/cpp-tutorial/c-style-string-symbolic-constants/) |
