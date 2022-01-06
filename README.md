@@ -18,4 +18,4 @@
 | 课程 | 当前进度 |
 | :--- | ---: |
 | OpenGL | [Introduction](https://learnopengl.com/Introduction) |
-| C++ | [10.12](https://www.learncpp.com/cpp-tutorial/c-style-string-symbolic-constants/) |
+| C++ | [10.17](https://www.learncpp.com/cpp-tutorial/references-and-const/) |
