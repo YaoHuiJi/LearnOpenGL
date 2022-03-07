@@ -8,24 +8,22 @@
 #include <typeinfo>
 #include <algorithm>
 
-void add1(int &num)
+void greet(std::string* name = nullptr)
 {
-    num++;
+    LOGD << "HELLO";
+    LOGD << (name? *name : "Guest");
 }
 
-void add2(int* num)
-{
-    *num += 2;
-}
 
 int main()
 {
     helper::initPlog();
     
-    int ar[] { 1,2,3,4};
-    int (&arr)[4]{ar};
+    std::string name = "Yao Hui Ji";
     
-    std::cout << arr[2];
-
+    greet(&name);
+    
+    greet();
+    
     return EXIT_SUCCESS;
 }

@@ -18,4 +18,4 @@
 | 课程 | 当前进度 |
 | :--- | ---: |
 | OpenGL | [Introduction](https://learnopengl.com/Introduction) |
-| C++ | [10.17](https://www.learncpp.com/cpp-tutorial/references-and-const/) |
+| C++ | [9.11](https://www.learncpp.com/cpp-tutorial/return-by-reference-and-return-by-address/) |
